@@ -6,10 +6,10 @@ public class LetterA {
 
         int firstValue, secondValue;
 
-        System.out.print("Informe um valor: ");
+        System.out.print("Type value: ");
         firstValue = in.nextInt();
 
-        System.out.print("Informe outro valor: ");
+        System.out.print("Type another value: ");
         secondValue = in.nextInt();
 
         if ( firstValue > secondValue)
