@@ -4,18 +4,18 @@ public class LetterD {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        double first, second, third, fourth, average, finalExam, finalAverage;
+        double firstValue, secondValue, thirdValue, fourthValue, average, finalExam, finalAverage;
 
         System.out.print("Inform the 1st grade: ");
-        first = in.nextDouble();
+        firstValue = in.nextDouble();
         System.out.print("Inform the 2st grade: ");
-        second = in.nextDouble();
+        secondValue = in.nextDouble();
         System.out.print("Inform the 3st grade: ");
-        third = in.nextDouble();
+        thirdValue = in.nextDouble();
         System.out.print("Inform the 4st grade: ");
-        fourth = in.nextDouble();
+        fourthValue = in.nextDouble();
 
-        average = (first + second + third + fourth) / 4;
+        average = (firstValue + secondValue + thirdValue + fourthValue) / 4;
 
         if ( average >=7)
             System.out.println("Approved with average: " + average);
